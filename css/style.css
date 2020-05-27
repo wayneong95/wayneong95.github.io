@@ -45,8 +45,7 @@ header a{
 header li{
 	float:none;
 	display:inline;
-	padding: 0 20px 0 20px;
-
+    padding: 0 20px 0 20px;
 }
 
 header nav{
@@ -77,10 +76,13 @@ footer {
 	header nav,
 	header nav li {
 		float:none;
-		text-align: center;
+		text-align: right;
 		width:100%;
 	}
 	header {
 		padding-bottom: 20px;
-	}
+    }
+    header li{
+        padding: 0 10px 0 10px;
+    }
 }
