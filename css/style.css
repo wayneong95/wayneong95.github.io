@@ -76,7 +76,7 @@ footer {
 	header nav,
 	header nav li {
 		float:none;
-		text-align: right;
+		text-align: center;
 		width:100%;
 	}
 	header {
