@@ -88,10 +88,10 @@ footer {
     header nav,
 	header nav li {
 		float:none;
-		text-align: left;
+		text-align: center;
 		width:100%;
 	}
     header li{
-        padding: 0 0 0 0;
+        padding: 0 4% 0 4%;
     }
 }
