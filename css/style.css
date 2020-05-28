@@ -95,7 +95,7 @@ footer {
 		text-align: center;
 		width:100%;
 	}
-    header li{
+    header li {
         padding: 0 4% 0 4%;
     }
 }
@@ -109,7 +109,10 @@ footer {
 		text-align: center;
 		width:100%;
 	}
-    header li{
-        padding: 0 2% 0 2%;
+    header li {
+        padding: 0 4% 0 4%;
+    }
+    header a {
+        font-size: 14px;
     }
 }
