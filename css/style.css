@@ -80,6 +80,13 @@ header a:hover{
     padding-top: 25px;
 }
 
+/* .contact {
+    width: 150px;
+    float: left;
+    border: 20px;
+    padding-right: 20px;
+} */
+
 #main {
     margin-left: 50px;
     width: 80%;
@@ -100,6 +107,17 @@ h3 {
     text-align:justify; 
 }
 
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width:150px;
+}
+
 footer {
     font:15px/1.5 Arial, Helvetica, sans-serif;
 	padding: 20px;
@@ -114,7 +132,8 @@ footer {
 	header nav,
     header nav li,
     #img,
-    #text1 {
+    #text1,
+    #boxes .box {
 		float:none;
 		text-align: center;
 		width:100%;
@@ -128,7 +147,8 @@ footer {
     header nav,
     header nav li,
     #img,
-    #text1 {
+    #text1,
+    #boxes .box {
 		float:none;
 		text-align: center;
 		width:100%;
