@@ -1,2 +1,2 @@
 # wayneong95.github.io
-Web Portfolio
+My web portfolio using HTML and CSS.
