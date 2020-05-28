@@ -116,12 +116,6 @@ footer {
     header li {
         padding: 0 4% 0 4%;
     }
-    .bioimg,
-    .biodesc {
-        float:none;
-        text-align: center;
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 480px) {
