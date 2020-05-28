@@ -72,7 +72,7 @@ header a:hover{
     margin-right: auto;
 }
 
-.bioimg {
+.mainimg {
     width: 250px;
     float: left;
     border: 10px;
@@ -80,12 +80,12 @@ header a:hover{
     padding-top: 25px;
 }
 
-#bio {
+#main {
     margin-left: 50px;
     width: 80%;
 }
 
-.biodesc {
+.maindesc {
     text-align: justify;
     overflow: hidden;
     width: 80%;
