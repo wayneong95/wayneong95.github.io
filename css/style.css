@@ -102,7 +102,9 @@ footer {
 
 @media screen and (max-width: 480px) {
     header nav,
-	header nav li {
+    header nav li,
+    img,
+    .bio {
 		float:none;
 		text-align: center;
 		width:100%;
