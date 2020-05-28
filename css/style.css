@@ -63,7 +63,7 @@ header a:hover{
 	font-weight: bold;
 }
 
-img {
+#dp {
     border-radius: 50%;
     width: 300px;
     margin-top: 50px;
@@ -72,7 +72,25 @@ img {
     margin-right: auto;
 }
 
-.bio {
+.bioimg {
+    width: 250px;
+    float: left;
+    border: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#bio {
+    margin-left: 50px;
+}
+
+.biodesc {
+    text-align: justify;
+    overflow: hidden;
+    width: 80%;
+}
+
+#text1 {
     text-align:justify; 
 }
 
@@ -89,8 +107,8 @@ footer {
 @media (min-width: 481px) and (max-width: 768px){
 	header nav,
     header nav li,
-    img,
-    .bio {
+    #img,
+    #text1 {
 		float:none;
 		text-align: center;
 		width:100%;
@@ -98,13 +116,19 @@ footer {
     header li {
         padding: 0 4% 0 4%;
     }
+    .bioimg,
+    .biodesc {
+        float:none;
+        text-align: center;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     header nav,
     header nav li,
-    img,
-    .bio {
+    #img,
+    #text1 {
 		float:none;
 		text-align: center;
 		width:100%;
