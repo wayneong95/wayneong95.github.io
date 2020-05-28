@@ -1,5 +1,5 @@
 body{
-    font:15px/1.5 Arial, Helvetica, sans-serif;
+    font:20px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f8f8ff;
@@ -63,7 +63,13 @@ header a:hover{
 	font-weight: bold;
 }
 
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
 footer {
+    font:15px/1.5 Arial, Helvetica, sans-serif;
 	padding: 20px;
 	margin-top: 20px;
 	color:#000000;	
